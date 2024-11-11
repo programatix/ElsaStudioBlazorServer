@@ -17,6 +17,11 @@ dotnet run --project ElsaStudioBlazorServer --urls "https://localhost:7001"
 user: admin
 password: password
 
+## Sample endpoints
+- [HTML: Hello world](https://localhost:5001/workflows/hello-world)
+- [HTML: Hello world with message](https://localhost:5001/workflows/hello-world?message=My%20name%20is%20John%20Doe)
+- [JSON: Hello world](https://localhost:5001/workflows/hello-world-json)
+- [JSON: Hello world with message](https://localhost:5001/workflows/hello-world-json?message=My%20name%20is%20John%20Doe)
 
 ## Documentation
 - https://v3.elsaworkflows.io/docs
